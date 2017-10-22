@@ -1,6 +1,7 @@
 package all
 
 import (
+	_ "github.com/danmaid/telegraf/plugins/outputs/sse"
 	_ "github.com/influxdata/telegraf/plugins/outputs/amon"
 	_ "github.com/influxdata/telegraf/plugins/outputs/amqp"
 	_ "github.com/influxdata/telegraf/plugins/outputs/cloudwatch"
